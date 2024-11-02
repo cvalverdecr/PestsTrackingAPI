@@ -1,31 +1,32 @@
 # PestsTrackingAPI
+
 PestsTrackingAPI
 
 # Credenciales de Postgresql
+
 username: postgres
 Pass: Asterix1973.
 gateway: rds-postgresql-peststracking.c3eay82cy5du.us-east-1.rds.amazonaws.com
+database: peststracking
 Puerto:5432
 
 Dotnet new --list
 dotnet new webapi --name ApiPeliculas
 dotnet build
-dotnet run 
+dotnet run
 
 //Llave para configurar la cadena de conexión
- "ConnectionStrings": {
-    "ConexionSql": "Server=localhost;Database=ApiPeliculasNET8;User Id=sa;Password=Asterix1973;Trusted_Connection=false;TrustServerCertificate=true;MultipleActiveResultSets=true"
-  },
+"ConnectionStrings": {
+"ConexionSql": "Server=localhost;Database=ApiPeliculasNET8;User Id=sa;Password=Asterix1973;Trusted_Connection=false;TrustServerCertificate=true;MultipleActiveResultSets=true"
+},
 
-
-  //Instalar extensiones necesarias.
-  dotnet add package Microsoft.EntityFrameworkCore --version 8.0.7
-  dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.7
-  dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.7
-
+//Instalar extensiones necesarias.
+dotnet add package Microsoft.EntityFrameworkCore --version 8.0.7
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.7
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 8.0.7
 
 // Es necesario hacer la inyeccion del SQL a nivel del proyecto
-builder.Services.AddDbContext<ApplicationDbContext>(options => 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("ConexionSql")));
 
 //Para hacer una migracion
@@ -51,7 +52,6 @@ Asp.Versioning.Mvc
 Asp.Versioning.Mvc.ApiExplorer
 
 Agregar soporte para las versiones.
-
 
 Agregar soporte para .Net identity
 //Soporte para autenticacion con .Net Identity
