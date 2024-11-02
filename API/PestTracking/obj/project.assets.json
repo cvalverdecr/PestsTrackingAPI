@@ -466,11 +466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTracking/API/PestTracking/PestTracking.csproj",
+      "projectUniqueName": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/PestTracking.csproj",
       "projectName": "PestTracking",
-      "projectPath": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTracking/API/PestTracking/PestTracking.csproj",
+      "projectPath": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/PestTracking.csproj",
       "packagesPath": "/Users/cvalverdecr/.nuget/packages/",
-      "outputPath": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTracking/API/PestTracking/obj/",
+      "outputPath": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
