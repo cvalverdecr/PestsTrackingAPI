@@ -1,0 +1,6 @@
+@PestTracking_HostAddress = http://localhost:5037
+
+GET {{PestTracking_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
