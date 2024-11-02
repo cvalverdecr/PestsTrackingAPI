@@ -1,6 +1,12 @@
 # PestsTrackingAPI
 PestsTrackingAPI
 
+# Credenciales de Postgresql
+username: postgres
+Pass: Asterix1973.
+gateway: rds-postgresql-peststracking.c3eay82cy5du.us-east-1.rds.amazonaws.com
+Puerto:5432
+
 Dotnet new --list
 dotnet new webapi --name ApiPeliculas
 dotnet build
