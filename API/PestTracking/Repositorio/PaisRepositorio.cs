@@ -38,8 +38,7 @@ namespace PestTracking.Repositorio
         public bool ExistePais(string nombre)
         {
             bool valor = _context.Pais.Any(p => p.Descripcion.ToLower().Trim() == nombre.ToLower().Trim());
-            
-
+            return valor;
         }
 
         public bool ExistePais(int id)
@@ -49,17 +48,17 @@ namespace PestTracking.Repositorio
 
         public Pais GetPais(int paisId)
         {
-            throw new NotImplementedException();
+        return _context.Pais.FirstOrDefault(p => p.Id == paisId);
         }
 
         public ICollection<Pais> GetPaises()
         {
-            throw new NotImplementedException();
+            return _context.Pais.OrderBy(p => p.Descripcion).ToList();
         }
 
         public bool Guardar()
         {
-            throw new NotImplementedException();
+            return _context.SaveChanges() >= 0 ? true : false;
         }
     }
 }
