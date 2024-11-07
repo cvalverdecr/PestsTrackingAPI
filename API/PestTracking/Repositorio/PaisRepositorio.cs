@@ -17,8 +17,15 @@ namespace PestTracking.Repositorio
         }
         public bool ActualizarPais(Pais pais)
         {
-            pais.FechaCreacion = DateTime.Now;
-            _context.Pais.Update(pais);
+            pais.FechaCreacion = DateTime.UtcNow;
+            //arreglar problema del put con el tracking
+            var paisExistente = _context.Pais.Find(pais.Id);
+            if (paisExistente != null)
+            {
+                _context.Entry(paisExistente).CurrentValues.SetValues(pais); 
+            }else{
+                _context.Pais.Update(pais);
+            }
             return Guardar();
         }
 
@@ -30,7 +37,7 @@ namespace PestTracking.Repositorio
 
         public bool CrearPais(Pais pais)
         {
-            pais.FechaCreacion = DateTime.Now;
+            pais.FechaCreacion = DateTime.UtcNow;
             _context.Add(pais);
             return Guardar();
         }
@@ -53,7 +60,7 @@ namespace PestTracking.Repositorio
 
         public ICollection<Pais> GetPaises()
         {
-            return _context.Pais.OrderBy(p => p.Descripcion).ToList();
+            return _context.Pais.OrderBy(p => p.Orden).ToList();
         }
 
         public bool Guardar()

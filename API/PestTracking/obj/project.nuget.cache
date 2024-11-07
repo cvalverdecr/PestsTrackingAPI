@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ha+EABAAbJLMYQnJdb9h6nvbMy5p7WeLGTnZ59zY4Uf3mWPpBrhQ3FzAIpwN0JF9qD4DF1qQawsaTU+1hFpxNg==",
+  "dgSpecHash": "27acpEYgeaOV9wi5VYaHCvLeDN7Ld7UeL9VYkuIW8qy/L2GHvL6DAJ3VtW+uyuC3r5qESLO4u2fNnLT4yXVZPw==",
   "success": true,
   "projectFilePath": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/PestTracking.csproj",
   "expectedPackageFiles": [
+    "/Users/cvalverdecr/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/cvalverdecr/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/cvalverdecr/.nuget/packages/microsoft.aspnetcore.openapi/8.0.3/microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
     "/Users/cvalverdecr/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

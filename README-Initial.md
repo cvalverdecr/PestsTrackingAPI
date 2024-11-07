@@ -39,6 +39,8 @@ dotnet ef dbcontext list
 
 command + shift + P = Nuget Add Nuget Package
 
+Es necesario instalar el automapper
+
 Es necesario agrega los repositorios y el automapper al program.cs
 
 control G multi cursos
@@ -57,3 +59,5 @@ Agregar soporte para .Net identity
 //Soporte para autenticacion con .Net Identity
 builder.Services.AddIdentity<
 IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+
+/swagger/index.html

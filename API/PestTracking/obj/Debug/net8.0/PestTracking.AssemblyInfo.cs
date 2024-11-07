@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PestTracking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5de31e4150588c6a668b55147a1a300e05b6bca8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7bd2b2bdaad157c62c00625894459f39b91ebec")]
 [assembly: System.Reflection.AssemblyProductAttribute("PestTracking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PestTracking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

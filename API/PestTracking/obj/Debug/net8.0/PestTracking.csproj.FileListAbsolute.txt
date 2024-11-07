@@ -138,3 +138,4 @@
 /Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/obj/Debug/net8.0/PestTracking.pdb
 /Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/obj/Debug/net8.0/PestTracking.genruntimeconfig.cache
 /Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/obj/Debug/net8.0/ref/PestTracking.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/AutoMapper.dll

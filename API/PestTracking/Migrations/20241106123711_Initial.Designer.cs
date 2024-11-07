@@ -12,7 +12,7 @@ using PestTracking.Data;
 namespace PestTracking.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241104220026_Initial")]
+    [Migration("20241106123711_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -45,7 +45,7 @@ namespace PestTracking.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Paises");
+                    b.ToTable("Pais");
                 });
 #pragma warning restore 612, 618
         }

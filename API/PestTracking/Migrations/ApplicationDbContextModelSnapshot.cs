@@ -42,7 +42,7 @@ namespace PestTracking.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Paises");
+                    b.ToTable("Pais");
                 });
 #pragma warning restore 612, 618
         }

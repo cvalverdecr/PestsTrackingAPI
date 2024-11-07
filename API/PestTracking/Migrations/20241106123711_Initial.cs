@@ -13,7 +13,7 @@ namespace PestTracking.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Paises",
+                name: "Pais",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
@@ -24,7 +24,7 @@ namespace PestTracking.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Paises", x => x.Id);
+                    table.PrimaryKey("PK_Pais", x => x.Id);
                 });
         }
 
@@ -32,7 +32,7 @@ namespace PestTracking.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Paises");
+                name: "Pais");
         }
     }
 }
