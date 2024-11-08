@@ -14,6 +14,8 @@ namespace PestTracking.PestTrackingMappers
         {
             CreateMap<Pais,PaisDto>().ReverseMap();
             CreateMap<Pais,CrearPaisDto>().ReverseMap();
+            CreateMap<Empresa,EmpresaDto>().ReverseMap();
+            CreateMap<Empresa,CrearEmpresaDto>().ReverseMap();  
         }
     }
 }

@@ -15,5 +15,6 @@ namespace PestTracking.Data
         }
         //aqui todos los modelos se deben agregar como Dbset(Modelos)
         public DbSet<Pais> Pais{ get; set; }
+        public DbSet<Empresa> Empresa{ get; set; }
     }
 }
