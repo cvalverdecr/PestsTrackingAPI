@@ -37,6 +37,23 @@ namespace PestTracking.Controllers
 
             return Ok(listaUsuariosDto);
         }
+
+
+        [HttpGet("{usuarioId:int}", Name = "GetUsuario")]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult GetUsuario(int usuarioId)
+        {
+            var itemUsuario = _usuarioRepositorio.GetUsuario(usuarioId);
+            if (itemUsuario == null)
+            {
+                return NotFound();
+            }
+            var itemUsuarioDto = _mapper.Map<UsuarioDto>(itemUsuario);
+            return Ok(itemUsuarioDto);
+        }
         
     }
 }
