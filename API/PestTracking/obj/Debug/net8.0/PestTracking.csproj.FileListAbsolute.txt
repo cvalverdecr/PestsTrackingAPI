@@ -139,3 +139,13 @@
 /Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/obj/Debug/net8.0/PestTracking.genruntimeconfig.cache
 /Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/obj/Debug/net8.0/ref/PestTracking.dll
 /Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/AutoMapper.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/Microsoft.Practices.ServiceLocation.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/bin/Debug/net8.0/XAct.Core.PCL.dll

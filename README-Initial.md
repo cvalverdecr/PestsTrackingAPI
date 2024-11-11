@@ -61,3 +61,25 @@ builder.Services.AddIdentity<
 IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 
 /swagger/index.html
+
+# Implementaciones requeridas para las parte de usuario
+
+//Metodo para encriptar contrasena con MD5 se usa tanto en el acceso como en el registro
+
+es necesario instalar el paquete XSystem.Security.Cryptography
+
+public static string obtenerMd5(string valor)
+{
+MD5CryptoServiceProvider x = new MD5CryptoServiceProvider();
+byte[] data = System.Text.Encoding.UTF8.GetBytes(valor);
+data = x.ComputeHash(data);
+string resp = "";
+for(int i = 0 ; i <data.Length; i++)
+resp += data[i].ToString("x2").ToLower();
+return resp;  
+ }
+
+Es necesario agregar el siguiente paquete:
+Microsoft.AspNetCore.Authentication.JwtBearer
+
+using System.Security.Claims;
