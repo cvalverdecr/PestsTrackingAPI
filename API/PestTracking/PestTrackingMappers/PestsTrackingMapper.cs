@@ -12,10 +12,17 @@ namespace PestTracking.PestTrackingMappers
     {
         public PestsTrackingMapper()
         {
+            //Maps de paises
             CreateMap<Pais,PaisDto>().ReverseMap();
             CreateMap<Pais,CrearPaisDto>().ReverseMap();
+
+            //Maps de empresas
             CreateMap<Empresa,EmpresaDto>().ReverseMap();
-            CreateMap<Empresa,CrearEmpresaDto>().ReverseMap();  
+            CreateMap<Empresa,CrearEmpresaDto>().ReverseMap();
+
+            //Map de caracteristicas
+            CreateMap<Caracteristica, CaracteristicaDto>().ReverseMap();
+            CreateMap<Caracteristica, CrearCaracteristicaDto>().ReverseMap();
         }
     }
 }

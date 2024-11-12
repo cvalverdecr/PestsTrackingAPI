@@ -1,29 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/PestTracking.csproj": {}
+    "C:\\Users\\Mauser\\Desktop\\PestsTrackingAPI\\API\\PestTracking\\PestTracking.csproj": {}
   },
   "projects": {
-    "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/PestTracking.csproj": {
+    "C:\\Users\\Mauser\\Desktop\\PestsTrackingAPI\\API\\PestTracking\\PestTracking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/PestTracking.csproj",
+        "projectUniqueName": "C:\\Users\\Mauser\\Desktop\\PestsTrackingAPI\\API\\PestTracking\\PestTracking.csproj",
         "projectName": "PestTracking",
-        "projectPath": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/PestTracking.csproj",
-        "packagesPath": "/Users/cvalverdecr/.nuget/packages/",
-        "outputPath": "/Users/cvalverdecr/Documents/Developer/Net Core/PestsTrackingProject/PestsTrackingAPI/API/PestTracking/obj/",
+        "projectPath": "C:\\Users\\Mauser\\Desktop\\PestsTrackingAPI\\API\\PestTracking\\PestTracking.csproj",
+        "packagesPath": "C:\\Users\\Mauser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mauser\\Desktop\\PestsTrackingAPI\\API\\PestTracking\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "/Users/cvalverdecr/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mauser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,10 +54,6 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -76,10 +75,6 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
-            },
-            "XAct.Core.PCL": {
-              "target": "Package",
-              "version": "[0.0.5014, )"
             }
           },
           "imports": [
@@ -101,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

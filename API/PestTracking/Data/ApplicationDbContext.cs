@@ -11,11 +11,11 @@ namespace PestTracking.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
         //aqui todos los modelos se deben agregar como Dbset(Modelos)
-        public DbSet<Pais> Pais{ get; set; }
-        public DbSet<Empresa> Empresa{ get; set; }
-        public DbSet<Usuario> Usuario{ get; set; }
+        public DbSet<Pais> Pais { get; set; }
+        public DbSet<Empresa> Empresa { get; set; }
+        public DbSet<Caracteristica> Caracteristica { get; set; }
     }
 }
