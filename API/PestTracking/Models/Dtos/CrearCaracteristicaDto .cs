@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace PestTracking.Models.Dtos
 {
-    public class CrearPaisDto
-    
+    public class CrearCaracteristicaDto
+
     {
        [Required(ErrorMessage = "El campo Descripcion es requerido")]
        [MaxLength(100, ErrorMessage = "La longitud maxima del campo Descripcion es de 100 caracteres")]
-       //Display(Name = "Nombre del Pais")]
-       public string Descripcion { get; set; }
+       public string DescripcionCaracteristica { get; set; }
        public int orden { get; set; }
     }
 }

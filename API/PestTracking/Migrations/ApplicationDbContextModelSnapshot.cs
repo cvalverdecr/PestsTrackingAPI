@@ -96,31 +96,6 @@ namespace PestTracking.Migrations
                     b.ToTable("Pais");
                 });
 
-            modelBuilder.Entity("PestTracking.Models.Usuario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Nombre")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Rol")
-                        .HasColumnType("text");
-
-                    b.Property<string>("password")
-                        .HasColumnType("text");
-
-                    b.Property<string>("username")
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Usuario");
-                });
-
             modelBuilder.Entity("PestTracking.Models.Empresa", b =>
                 {
                     b.HasOne("PestTracking.Models.Pais", "Pais")

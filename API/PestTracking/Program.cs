@@ -13,7 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //Agregamos los repositorios
 builder.Services.AddScoped<IPaisRepositorio, PaisRepositorio>();
 builder.Services.AddScoped<IEmpresaRepositorio, EmpresaRepositorio>();
-builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+builder.Services.AddScoped<ICaracteristicaRepositorio, CaracteristicaRepositorio>();
 
 //agregamos el automapper
 builder.Services.AddAutoMapper(typeof(PestsTrackingMapper));
